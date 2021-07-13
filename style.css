@@ -1,0 +1,95 @@
+.img{
+    border-radius:10px;
+    margin-top:2em;
+    width:100%;
+    background-color:linear-gradient(to right,#cd3545,#191970);
+}
+
+
+#cont{
+    margin-top:2em;
+}
+
+#row1{
+    margin-top:-2em;
+}
+
+.card{
+    margin-top:2em;
+    border-color: white;
+}
+
+#teste{
+    border-radius:35px;
+}
+
+.jumbotron{
+    background-color: rgba(105, 230, 145, 0.945);
+}
+
+div#carde{
+        
+    border-radius:35px;
+    border-color: white;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    outline: none;
+    background-color: rgb(208, 253, 223);
+}
+
+.btn:hover{
+    background-color: rgb(94, 143, 110);
+}
+
+.zoom{
+    transition: all .2s;
+    width: 100%;
+}
+
+.zoom:hover{
+    -ms-transform: scale(0.1); /* IE 9 */
+    -webkit-transform: scale(0.1); /* Safari 3-8 */
+    transform: scale(1.04); 
+}
+
+.card-title{
+    text-align: center;
+}
+
+#grad{
+    height:1px;
+    opacity: 0.5;
+    background-color: red;
+    background-image: linear-gradient(to right, rgb(0, 255, 42),rgb(0, 0, 0));
+}
+
+.text{
+    text-align:justify;
+}
+
+#li{
+    font-style: italic;
+}
+
+#hrfluid{
+    height:1px;
+    background-image: linear-gradient(to right, rgb(0, 255, 42),rgb(0, 0, 0));
+    margin-bottom:70px;
+}
+
+.hrwhite{
+    background-color:#fff;
+    height:1px;
+}
+
+#footer{
+    margin-top:10em;
+    margin-bottom: -20%;
+}
+
+.text{
+    color: #000;
+}

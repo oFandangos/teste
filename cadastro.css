@@ -1,0 +1,100 @@
+body{
+    background-color: #f1f1f1;
+}
+
+label{
+    font-size: 18px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.card{
+    background-color: white;
+    padding: 6%;
+    border-radius: 50px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.imglogin{
+    width: 30%;
+    box-shadow: 5px 2px 1px 1px rgba(6, 46, 16, 0.603);
+}
+
+.custom-checkbox input{
+    display: none;
+}
+
+.titulo{
+    color:#228B22
+}
+
+.card-group > label{
+    width: 100%;
+    color: #14551f;
+    display: block;
+
+}
+.card-group > input{
+    outline:0;
+    border:2px solid;
+    border-radius: 120px;
+    border-color: rgb(43, 172, 112);
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+}
+
+/*
+.card-group{
+    margin-bottom: 10px;
+}
+*/
+
+
+.card-group > button{
+    background-color:#228B22;
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn > button:hover{
+    background-color: #136113;
+}
+
+.card-group > input:focus{
+    border-color:rgb(29, 214, 208);
+}
+
+.card-g{
+    margin-top:2%;
+}
+
+.zoom{
+    transition: all .2s;
+    width: 100%;
+}
+
+#cado{
+    font-style: italic;
+}
+
+.zoom:hover{
+    -ms-transform: scale(0.1); /* IE 9 */
+    -webkit-transform: scale(0.1); /* Safari 3-8 */
+    transform: scale(1.04); 
+}
